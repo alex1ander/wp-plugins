@@ -1,0 +1,28 @@
+.testForm input[type=text]{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+.testForm{
+    border: 1px solid #949494;
+    padding: 50px;
+}
+
+.testForm input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .testForm input[type=submit]:hover  {
+    opacity:1;
+  }
